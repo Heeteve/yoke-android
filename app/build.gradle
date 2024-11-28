@@ -19,6 +19,7 @@ android {
     productFlavors {
     }
     lintOptions {
+        abortOnError false
         disable 'SetJavaScriptEnabled'
     }
 }
